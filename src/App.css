@@ -1,0 +1,79 @@
+@import "antd/dist/antd.css";
+
+.App {
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 2%;
+  margin-left: 5%;
+  position: relative;
+  top: 200px;
+  /* height: 900vh;
+  padding-bottom: 200px; */
+  /* border: 2px solid blue; */
+}
+.container img {
+  width: 100%;
+  height: 250px;
+}
+.box {
+  /* border: 1px solid; */
+  padding: 3%;
+  border-radius: 4%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/* .box {
+  box-shadow: 7px 5px 5px 6px rebeccapurple;
+  padding: 20px;
+  margin-top: 50px;
+} */
+.box:hover {
+  transition-duration: 2s;
+  transform: translateY(20px);
+  box-shadow: 7px 5px 5px 6px grey;
+}
+
+.box img,
+p {
+  text-align: center;
+}
+.box Button {
+  margin-left: 32%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  width: 100%;
+  background-color: brown;
+  position: fixed;
+  z-index: 1;
+}
+.navbar > div:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
+.navbar img {
+  width: 9%;
+}
+.filter {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  margin-left: 50%;
+  top: 100px;
+  z-index: 1;
+}
+.btnDiv {
+  /* border: 1px solid blue; */
+  margin-top: 100px;
+  margin-bottom: -180px;
+  margin-right: 60px;
+  font-size: 22px;
+  text-align: right;
+}

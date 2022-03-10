@@ -1,0 +1,29 @@
+.home {
+  height: 100vh;
+  width: 100%;
+  background-image: url("https://i.pinimg.com/originals/73/2f/d8/732fd8b29ae754e6339829dcd55b7bec.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+}
+.btn {
+  height: 70px;
+  width: 200px;
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  border-radius: 10px;
+  border: 0px;
+  margin-top: 50px;
+  margin-left: 40%;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: brown;
+}
+.h1 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 20%;
+}

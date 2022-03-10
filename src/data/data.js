@@ -1,0 +1,420 @@
+
+export const array = [
+    {
+        _id : 8,
+        shopName: "24/7 Auto Repair",
+        ratings : 10,
+        radius : 400,
+        location : "Suryapet",
+        street : "New Street",
+        availTime : {inTime : 5,
+            outTime : 6},
+        date : "29/03/2022",   
+        discount : 8 ,
+        payment : ["Bhim App","Gpay","Cash on Delivery"],
+        image : 
+        "https://media.gettyimages.com/photos/checking-oil-in-car-engine-picture-id1157179147?k=20&m=1157179147&s=612x612&w=0&h=UKbu3rdN-53cmKSO8NvuNl5Ve7Lh29rsUkVeARnE87M=",         
+    
+    },
+    {
+        _id : 9,
+        shopName: "Car Repair",
+        ratings : 8,
+        radius : 700,
+        location : "Sasaram",
+        street : "Old Street",
+        availTime : {inTime : 5,
+            outTime : 6},
+        date : "29/03/2022",   
+        discount : 8 ,
+        payment : ["Bhim App","Gpay","Cash on Delivery"],
+        image : 
+        "https://media.gettyimages.com/photos/mechanic-working-at-a-car-garage-wearing-a-facemask-to-avoid-the-of-picture-id1224667630?k=20&m=1224667630&s=612x612&w=0&h=m-ti4ejPgdZS2-I7X4T5bA4oqSzFtho_f3iev2w5Boo=",         
+    
+    },
+    {
+        _id : 10,
+        shopName: "Fix Car",
+        ratings : 8,
+        radius : 700,
+        location : "Sasaram",
+        street : "Old Street",
+        availTime : {inTime : 5,
+            outTime : 6},
+        date : "29/03/2022",   
+        discount : 8 ,
+        payment : ["Bhim App","Gpay","Cash on Delivery"],
+        image : 
+        "https://media.gettyimages.com/photos/auto-repair-shop-picture-id155135564?k=20&m=155135564&s=612x612&w=0&h=XCFOBx-zelvnDbDG1AovoHk3gThZXwnevwdBRz4nl-Y=",         
+    
+    },
+    {
+        _id : 11,
+        shopName: "Car cum Bike showroom",
+        ratings : 8,
+        radius : 700,
+        location : "Nashik",
+        street : "Old Street",
+        availTime : {inTime : 5,
+            outTime : 6},
+        date : "29/03/2022",   
+        discount : 8 ,
+        payment : ["Bhim App","Gpay","Cash on Delivery"],
+        image : 
+        "https://media.gettyimages.com/photos/inside-of-modern-auto-repair-shop-picture-id1227651712?k=20&m=1227651712&s=612x612&w=0&h=qhpPM3Jt6XCdjAFfGeVuIc5ZTglkuG2IdTqDwA6ZmUE=",         
+    
+    },
+    {
+        _id : 12,
+        shopName: "Car showroom",
+        ratings : 8,
+        radius : 700,
+        location : "Nashik",
+        street : "Old Street",
+        availTime : {inTime : 5,
+            outTime : 6},
+        date : "29/03/2022",   
+        discount : 8 ,
+        payment : ["Bhim App","Gpay","Cash on Delivery"],
+        image : 
+        "https://media.gettyimages.com/photos/empty-auto-repair-shop-for-car-maintenance-picture-id157379370?k=20&m=157379370&s=612x612&w=0&h=I7zoUQYAUNYM2k78xVs6Md7c1uj6HMqTlMl_IH1rod0=",         
+    
+    },
+    {
+        _id : 13,
+        shopName: "India's best car Showroom",
+        ratings : 8,
+        radius : 700,
+        location : "Mumbai",
+        street : "Hind Street",
+        availTime : {inTime : 5,
+            outTime : 6},
+        date : "29/03/2022",   
+        discount : 8 ,
+        payment : ["Bhim App","Gpay","Cash on Delivery"],
+        image : 
+        "https://media.gettyimages.com/photos/auto-mechanic-using-repair-tools-check-car-in-garage-picture-id1166169921?k=20&m=1166169921&s=612x612&w=0&h=CB5N9ThLwQPmwRoeMZjZdsbRsL7oPIfeHH_NOjliCPY=",         
+    
+    },
+    {
+        _id : 14,
+        shopName: "India's best Tyre Showroom",
+        ratings : 8,
+        radius : 700,
+        location : "Mumbai",
+        street : "Hind Street",
+        availTime : {inTime : 5,
+            outTime : 6},
+        date : "29/03/2022",   
+        discount : 8 ,
+        payment : ["Bhim App","Gpay","Cash on Delivery"],
+        image : 
+        "https://www.wardsauto.com/sites/wardsauto.com/files/styles/article_featured_retina/public/Chevrolet%20Bolt-Orion%20plant.jpg%20Chevrolet.jpg?itok=3x5lgBVD",         
+    
+    },
+    {
+        _id : 15,
+        shopName: "Bhau's Type showroom",
+        ratings : 8,
+        radius : 700,
+        location : "Mumbai",
+        street : "Hind Street",
+        availTime : {inTime : 5,
+            outTime : 6},
+        date : "29/03/2022",   
+        discount : 8 ,
+        payment : ["Bhim App","Gpay","Cash on Delivery"],
+        image : 
+        "https://www.askthecarexpert.com/wp-content/uploads/2020/01/ATCE-Tyres-Driving-on-a-flat_2.jpg",         
+    
+    },
+    {
+        _id : 16,
+        shopName: "Kulkarni's Showroom ",
+        ratings : 8,
+        radius : 500,
+        location : "Pune",
+        street : "Hind Street",
+        availTime : {inTime : 5,
+            outTime : 6},
+        date : "29/03/2022",   
+        discount : 8 ,
+        payment : ["Bhim App","Gpay","Cash on Delivery"],
+        image : 
+        "https://darshantyres.com/wp-content/uploads/2018/04/Puncture-repair-img.jpg",         
+    
+    },
+    {
+        _id : 17,
+        shopName: "Kulkarni's Cycle Showroom ",
+        ratings : 8,
+        radius : 500,
+        location : "Pune",
+        street : "Hind Street",
+        availTime : {inTime : 5,
+            outTime : 6},
+        date : "29/03/2022",   
+        discount : 8 ,
+        payment : ["Bhim App","Gpay","Cash on Delivery"],
+        image : 
+        "https://rukminim1.flixcart.com/image/416/416/kdxfc7k0/puncture-repair-kit/r/j/y/emergency-tyre-weld-tire-puncture-repair-kit-getsun-original-imafuq2ja6g8fuvx.jpeg?q=70",         
+    
+    },
+    {
+        _id : 18,
+        shopName: "Tavde's best Car showroom center ",
+        ratings : 8,
+        radius : 500,
+        location : "Goa",
+        street : "Hind Street",
+        availTime : {inTime : 5,
+            outTime : 6},
+        date : "29/03/2022",   
+        discount : 8 ,
+        payment : ["Bhim App","Gpay","Cash on Delivery"],
+        image : 
+        "https://media.istockphoto.com/photos/auto-repair-shop-interior-with-mechanic-in-background-picture-id515009943?k=20&m=515009943&s=612x612&w=0&h=oaJxShtrJwrbGEfIBKKm1jipJx4GIvbx9obFMit5xwk=",         
+    
+    },
+    {
+        _id : 19,
+        shopName: "Jaykant Shikre's best Car showroom center ",
+        ratings : 8,
+        radius : 500,
+        location : "Pune",
+        street : "Hind Street",
+        availTime : {inTime : 5,
+            outTime : 6},
+        date : "29/03/2022",   
+        discount : 8 ,
+        payment : ["Bhim App","Gpay","Cash on Delivery"],
+        image : 
+        "https://media.istockphoto.com/photos/car-brakes-repair-picture-id174979404?k=20&m=174979404&s=612x612&w=0&h=0LxdXpMzwbaKPVjS8HgAO-_7ahHGWF1pkLmKSTXDoVk=",         
+    
+    },
+    {
+        _id : 19,
+        shopName: "Shakaal's best Car showroom center ",
+        ratings : 8,
+        radius : 500,
+        location : "Hyderabad",
+        street : "Hind Street",
+        availTime : {inTime : 5,
+            outTime : 6},
+        date : "29/03/2022",   
+        discount : 8 ,
+        payment : ["Bhim App","Gpay","Cash on Delivery"],
+        image : 
+        "https://media.istockphoto.com/photos/tire-repairer-checking-the-tire-integrity-picture-id621978130?k=20&m=621978130&s=612x612&w=0&h=T5CWsLOjy7E2oijLmswkBBJoOSvjpi1QyeEU-_2rHQk=",         
+    
+    },
+    {
+        _id : 20,
+        shopName: "Simbaa's best Car showroom center ",
+        ratings : 8,
+        radius : 500,
+        location : "Pune",
+        street : "Hind Street",
+        availTime : {inTime : 5,
+            outTime : 6},
+        date : "29/03/2022",   
+        discount : 8 ,
+        payment : ["Bhim App","Gpay","Cash on Delivery"],
+        image : 
+        "https://media.istockphoto.com/photos/auto-mechanic-service-and-repair-picture-id652660336?b=1&k=20&m=652660336&s=170667a&w=0&h=U9qp3Henrp1wuOc50IrkTnaZErwAtdDaFy24md19DrM=",         
+    
+    },
+    {
+        _id : 21,
+        shopName: "Diljale's best Bike repair center ",
+        ratings : 8,
+        radius : 500,
+        location : "Pune",
+        street : "Hind Street",
+        availTime : {inTime : 5,
+            outTime : 6},
+        date : "29/03/2022",   
+        discount : 8 ,
+        payment : ["Bhim App","Gpay","Cash on Delivery"],
+        image : 
+        "https://media.istockphoto.com/photos/cropped-view-of-mechanic-using-a-wrench-on-a-motorcycle-picture-id1036010442?b=1&k=20&m=1036010442&s=170667a&w=0&h=428criDhVK1HnS-SoB3ED70bcHeBzPASdVAzv53rYcA=",         
+    
+    },
+    {
+        _id : 22,
+        shopName: "Vijay's best Bycycle repair center ",
+        ratings : 8,
+        radius : 500,
+        location : "Pune",
+        street : "Hind Street",
+        availTime : {inTime : 5,
+            outTime : 6},
+        date : "29/03/2022",   
+        discount : 8 ,
+        payment : ["Bhim App","Gpay","Cash on Delivery"],
+        image : 
+        "https://media.istockphoto.com/photos/bicycle-workshop-picture-id1143317242?b=1&k=20&m=1143317242&s=170667a&w=0&h=ibqGWyggiu2DrBJH8k2Q6TB0m_wghNOIwBq-26YD4ZU=",         
+    
+    },
+    {
+        _id : 23,
+        shopName: "Mandwa's best Bycycle repair center ",
+        ratings : 8,
+        radius : 500,
+        location : "Pune",
+        street : "Hind Street",
+        availTime : {inTime : 5,
+            outTime : 6},
+        date : "29/03/2022",   
+        discount : 8 ,
+        payment : ["Bhim App","Gpay","Cash on Delivery"],
+        image : 
+        "https://media.istockphoto.com/photos/bicycle-workshop-picture-id1143317242?b=1&k=20&m=1143317242&s=170667a&w=0&h=ibqGWyggiu2DrBJH8k2Q6TB0m_wghNOIwBq-26YD4ZU=",         
+    
+    },
+    {
+        _id : 24,
+        shopName: "Sanhyadri's best Bike repair center ",
+        ratings : 8,
+        radius : 500,
+        location : "Pune",
+        street : "Hind Street",
+        availTime : {inTime : 5,
+            outTime : 6},
+        date : "29/03/2022",   
+        discount : 8 ,
+        payment : ["Bhim App","Gpay","Cash on Delivery"],
+        image : 
+        "https://media.istockphoto.com/photos/mechanic-repairing-customized-motorcycle-picture-id1019948816?b=1&k=20&m=1019948816&s=170667a&w=0&h=HQJwRibkngL-mwTiYeIK3UM3dGbcyLmgTIcp4WOLH3Q=",         
+    
+    },
+    {
+        _id : 25,
+        shopName: "All in One Bike repair Showroom ",
+        ratings : 8,
+        radius : 500,
+        location : "Pune",
+        street : "Hind Street",
+        availTime : {inTime : 5,
+            outTime : 6},
+        date : "29/03/2022",   
+        discount : 8 ,
+        payment : ["Bhim App","Gpay","Cash on Delivery"],
+        image : 
+        "https://media.istockphoto.com/photos/mechanic-repairing-a-motorcycle-picture-id1188820923?b=1&k=20&m=1188820923&s=170667a&w=0&h=OTL2yvcNEp2SMhMayIsZeePDaLqI-01fWc-YzmPicaI=",         
+    
+    },    
+    
+    {
+        _id : 1,
+        shopName: "pava",
+        ratings : 5,
+        radius : 500,
+        location : "Suryapet",
+        street : "TRR Street",
+        availTime : {inTime : 1,
+            outTime : 3},
+        date : "09/03/2022" ,
+        discount : 25,
+        payment : ["Bhim App","Gpay","Cash on Delivery"],
+        image : "https://fastly.4sqi.net/img/general/600x600/406480016_5xtElC3OwBeIyfkSoo0whk2WDjWej7ihpaRks_b-JHY.jpg",  
+
+    },
+    {
+        _id : 2,
+        shopName: "garage",
+        ratings : 8,
+        radius : 1000,
+        location : "Hyderabad",
+        street : "Edga Road",
+        availTime : {inTime : 2,
+            outTime : 4},
+        date : "19/03/2022" ,
+        discount : 20,
+        payment : ["Bhim App","Gpay","Cash on Delivery"],
+        image : 
+        "https://cdn.motor1.com/images/mgl/wJ1W4/s3/we-tour-high-performance-motorcycle-shop-motorsport-exotica.jpg",    
+
+    },
+    {
+        _id : 3,
+        shopName: "mrf",
+        ratings : 10,
+        radius : 1500,
+        location : "Secunderabad",
+        street : "Tmkr Street",
+        availTime : {inTime : 5,
+            outTime : 6},
+        date : "29/03/2022",   
+        discount : 15 ,
+        payment : ["Bhim App","Gpay","Cash on Delivery"],
+        image :   "https://foreignaffairsmotorsports.com/wp-content/uploads/2022/01/foreign-affairs-auto-maintenance-1.jpg",
+
+    },
+    {
+        _id : 4,
+        shopName: "pava",
+        ratings : 9,
+        radius : 500,
+        location : "Hayathnagar",
+        street : "Vinayak Colony",
+        availTime : {inTime : 1,
+            outTime : 3},
+        date : "09/03/2022" ,
+        discount : 18,
+        payment : ["Bhim App","Gpay","Cash on Delivery"],
+        image : 
+        "https://www.porschewestlondon.co.uk/binary/getasync/b6c66c1c-1fd4-4a16-9230-aa11d9423d17/image.jpg?s=3",  
+
+    },
+    {
+        _id : 5,
+        shopName: "garage",
+        ratings : 8,
+        radius : 1000,
+        location : "Khammam",
+        street : "Gandhi Street",
+        availTime : {inTime : 2,
+            outTime : 4},
+        date : "19/03/2022" ,
+        discount : 12,
+        payment : ["Bhim App","Gpay","Cash on Delivery"],
+        image :  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpNWCJfEQXYOTIgVoJEHCn25R72FSHlOr4gg&usqp=CAU", 
+
+    },
+    {
+        _id : 6,
+        shopName: "mrf",
+        ratings : 10,
+        radius : 1500,
+        location : "Warangal",
+        street : "Thousand Street",
+        availTime : {inTime : 5,
+            outTime : 6},
+        date : "29/03/2022",   
+        discount : 14 ,
+        payment : ["Bhim App","Gpay","Cash on Delivery"],
+        image : "https://65e81151f52e248c552b-fe74cd567ea2f1228f846834bd67571e.ssl.cf1.rackcdn.com/Porsche/Parts-Service/Porsche-Service-Repair-Expertise.jpg", 
+
+    },
+    {
+        _id : 7,
+        shopName: "mrf",
+        ratings : 10,
+        radius : 500,
+        location : "Miyapur",
+        street : "Masab Street",
+        availTime : {inTime : 5,
+            outTime : 6},
+        date : "29/03/2022",   
+        discount : 8 ,
+        payment : ["Bhim App","Gpay","Cash on Delivery"],
+        image : 
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSthnL43em8ODqMSx8j9HV-6wlQ1NP5sf52lg&usqp=CAU",         
+
+    }
+]
+
+
+ 
+ 
